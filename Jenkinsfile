@@ -4,6 +4,7 @@ pipeline {
     stage('DEV: Build Deploy') {
       steps {
         echo 'Starting DEV Build & Deployment'
+        bat 'a'
       }
     }
     stage('DEV: Unit Test') {
